@@ -1,0 +1,70 @@
+<html lang='en'>
+    <head>
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+    	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135504517-1"></script>
+    	<script>
+    		window.dataLayer = window.dataLayer || [];
+    		function gtag(){dataLayer.push(arguments);}
+    		gtag('js', new Date());
+    		gtag('config', 'UA-135504517-1');
+    	</script>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='../static/style.css'>
+        <script src='../static/client.js'></script>
+        <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=13uMYmmESyCpyyIq6Er0FOXg4Nt7zLqTm" />
+        <title>#WittyTourst: Snap Pic, Get Wit</title>
+    </head>
+<body>
+        <div>
+            <div class="center">
+                <div class="content">
+                    <img src="../static/witty-tourist-header.png" alt="test" style="max-width:90%;height:auto;">
+                    <div class='steps'>Upload pic with a San Francisco landmark</div>
+                    <div class="container">
+                        <img id="image-picked" src="../static/upload-pic.png" onclick="showPicker()" alt="help" height=480 width=auto/>
+                        <input type="file" name="image_src" id="image_src" />
+                    </div>
+                    <div class="no-display">
+                        <input id="file-input" class="no-display" type="file" name="file" accept="image/*" onchange="showPicked(this)">
+                    </div>
+                    <div class="upload-label">
+                        <label id="upload-label">
+                    </div>
+                    <div>
+                        <img id="image-picked" class="no-display" alt="Chosen Image" height=480 width=auto">
+                    </div>
+                    <div class="analyze">
+                        <button id="analyze-button" class="analyze-button" type="button" onclick="analyze()"><b>Get Witty Caption<b></button>
+                    </div>
+                    <div class="result-label">
+                        <label id="result-label"></label>
+                    </div>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScM71a-tj6Xtyj1q1pHrsb7GokTcKPfgXztZ-FXKsjn-jjyHg/viewform?embedded=true" width=90% height="518" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <div class="tutorial">
+                        🤖 Computer Vision is Complicated 🤖 
+                        </br>
+                        But Spreadsheets are Simple!
+                        </br>
+                        </br>
+                        Learn how it works with</br><a href="https://towardsdatascience.com/cutting-edge-face-recognition-is-complicated-these-spreadsheets-make-it-easier-e7864dbf0e1a" target="_blank" style="color:Blue">this Excel tutorial.</a>
+                        </br>
+                    </div>
+                    <hr width=75%>
+                    <div class="navbar">
+                        <a href="https://github.com/DaveSmith227/witty-tourist" target="_blank"><img src="static/git-hub-witty.png" class="active"  target="_blank" /></a>
+                        <a href="https://www.linkedin.com/in/data-davesmith/" target="_blank"><img src="static/linkedin-witty.png" /></a>
+                    </div>
+                    <div class="footer">    
+                        Made with ❤️ in San Francisco, CA
+                        </br>
+                        @ Copyright 2019
+                        </br>
+                        #wittytourist
+                    </div> 
+                </br>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+

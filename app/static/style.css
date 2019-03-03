@@ -1,0 +1,154 @@
+body {
+    background-color: #24C4F8;
+}
+
+.no-display {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    padding: 5px;
+    padding-left:25px;
+    padding-right:25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.steps {
+    font-size: 40px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-family: "Arial";
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.container{
+    text-align:center;
+    padding:10px;
+}
+
+#image_src {
+    position:absolute;
+    left:-9999px;
+}
+
+#img { 
+    cursor:pointer; 
+}
+
+.content {
+    margin-top: 0.5em;
+}
+
+.analyze {
+    margin-top: 2em;
+}
+
+.upload-label {
+    padding: 5px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+}
+
+.result-label {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 40px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+button.analyze-button {
+    width: 560px;
+    height: 200px;
+    border: solid 1px #da1746;
+    border-radius: 50px;
+    background-color: #da1746;
+    background: linear-gradient(to bottom right, #5b01a5, #d6249f, #fd5949, yellow);
+    font-size: 36px;
+    font-weight: 300;
+    color: #ffffff;
+    cursor:pointer;
+    -webkit-box-shadow: inset 1px 6px 12px lightpink, inset -1px -10px 5px red, 1px 2px 1px black;
+    -moz-box-shadow: inset 1px 6px 12px lightpink, inset -1px -10px 5px red, 1px 2px 1px black;
+    box-shadow: inset 1px 6px 12px lightpink, inset -1px -3px 5px #c40f70, 1px 2px 1px black;
+}
+
+button.analyze-button:active {
+  background-color: #da1746;
+  box-shadow: 0 5px #666;
+  transform: translateY(8px);
+}
+
+.button:hover {background-color: #3e8e41}
+
+.tutorial {
+    font-size: 40px;
+    padding: 40px;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    color: #c400a6;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 0.em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-color: white;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 40px;
+    width: 100%;
+    align-content: center;
+    font-family: 'Arial';
+    font-weight: 800;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: transparent;
+    text-align: left;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    background: transparent;
+    color: transparent;
+}
+
+.navbar a.active {
+    background-color: transparent;
+    color: transparent;
+}
+
+.footer {
+    font-size: 30px;
+    padding: 40px;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+button:focus {outline:0;}
