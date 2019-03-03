@@ -14,9 +14,9 @@ You’ve taken the perfect photo and you’re ready post to social media, but no
 
 [Try it out!](https://wittytourist.com)
 
-![Snap Pic, Get Wit #wittytourist](https://github.com/DaveSmith227/witty-tourist-test/blob/master/screenshots/mockup-painted-ladies-small.jpg)
+![Snap Pic, Get Wit #wittytourist](https://github.com/DaveSmith227/witty-tourist/blob/master/screenshots/mockup-painted-ladies-small.jpg)
 
-![Screenshots #wittytourist](https://github.com/DaveSmith227/witty-tourist-test/blob/master/screenshots/mockup-alcatraz-golden-gate-small.jpg)
+![Screenshots #wittytourist](https://github.com/DaveSmith227/witty-tourist/blob/master/screenshots/mockup-alcatraz-golden-gate-small.jpg)
 
 
 # List of Landmarks 🌁
